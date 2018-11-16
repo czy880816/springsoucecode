@@ -1,0 +1,23 @@
+data-sharing-service/.settings/
+data-sharing-web/.settings/
+.project
+.settings/
+data-sharing-rely/.classpath
+data-sharing-rely/.project
+data-sharing-rely/.settings/
+data-sharing-web/.classpath
+data-sharing-web/.project
+# Created by .ignore support plugin (hsz.mobi)
+*.class
+*.DS_Store
+*.lock
+*.swp
+.settings
+target
+bin
+.classpath
+.project
+.idea
+*.eml
+*.iml
+.build
