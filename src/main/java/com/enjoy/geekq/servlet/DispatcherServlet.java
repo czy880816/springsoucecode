@@ -33,15 +33,16 @@ public class DispatcherServlet extends HttpServlet  {
 
     //tomcat 实例化bean
     public void init(ServletConfig config) {
+        //扫描 不断递归
         basePackageScan("com.enjoy");
 
         //实例化
         doInstance();
 
-        //
+        //注入
         doAutowired();
 
-        //路径转换器
+        //路径转换器 -- 添加映射关系
         doUrlMapping();
 
     }
