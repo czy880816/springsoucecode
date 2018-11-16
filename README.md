@@ -11,5 +11,6 @@
 
 ## springmvc源码
 
+![初始化整体流程](https://raw.githubusercontent.com/qiurunze123/imageall/master/springmvc.png)
 
-![初始化整体流程](https://github.com/qiurunze123/imageall/blob/master/springmvc.png)
+
