@@ -15,8 +15,6 @@
 
      pom -- 引入了javax.servlet这个jar，说到底mvc的底层也就是一个servlet
 
-![加载流程](https://raw.githubusercontent.com/qiurunze123/imageall/master/springmvc2.png)
-
 
     这个是tomcat初始化的时候,初始流程， 整体来说 mvc的实现也是极大的利用了反射原理，将初始化的bean放在
     map中，在取一对一的映射拼装起来
